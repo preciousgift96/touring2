@@ -1,0 +1,124 @@
+body{
+
+    background-image: url(../tour-img/yousef-tour.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contworld{
+
+   font-family: Georgia, 'Times New Roman', Times, serif; 
+   font-weight: bold;
+   color: #dd6605;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+}
+
+a{
+
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #dd6605;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+a:hover{
+
+    background: #762119;
+    color: #dd6605;
+}
+
+.learnsec{
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    width: 100%;
+}
+
+.learnsec h3{
+    display: flex;
+    position: absolute;
+    margin-top: -40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+    color: #dd6605;
+    font-weight: bold;
+
+}
+
+.learncontactform{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width:28%;
+    height: 350px;
+    background-color: #000000c0;
+    border: 2px solid #e73232;
+    border-radius: 10px;
+    position: absolute;
+
+}
+
+.learncontactform .learnform{
+
+    display: block;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.learncontactform .learninputBox{
+
+    width: 50%;
+    height: 100px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-right: 140px;
+   
+
+}
+
+.learninputBox .leartext{
+
+   width: 200px;
+   padding: 10px;
+   border-top: none;
+   border-right: none;
+   border-left: none;
+   border-bottom: 3px solid #ec0c0c;
+   border-radius: 20px;
+   text-align: center;
+   display: block;
+   position: absolute;
+   justify-content:center;
+      
+}
+
+.learninputBox .learnsub{
+
+    margin-top: 50px;
+    position: absolute;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.learnsub:hover{
+
+    background: #762119;
+    color: #dd6605;
+}
+
